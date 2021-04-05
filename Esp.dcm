@@ -618,6 +618,12 @@ K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATmega2560
+D 8MHz, 64kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
 $CMP ATmega2560-16AU
 D 16MHz, 256kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
@@ -1406,12 +1412,6 @@ $ENDCMP
 #
 $CMP ATmega640-16CU
 D 16MHz, 64kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TFBGA-100
-K AVR 8bit Microcontroller MegaAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
-$ENDCMP
-#
-$CMP ATmega640V-8AU
-D 8MHz, 64kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
